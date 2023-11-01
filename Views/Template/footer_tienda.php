@@ -16,8 +16,7 @@
 		<div class="f-movil bg3"></div>
 		<div class="f-calce">
             <img class="f-calce-img" src="<?php echo base_url().'/Assets/vultan/encabezados/inferior/calce.png'; ?>" alt="" >
-        </div>
-		<div class="container-fluid f-conteiner">
+			<div class="container-fluid f-conteiner">
 			<div class="row">
 				<div class="col-5">
 					<div class="row contact">
@@ -77,6 +76,8 @@
 				</div>
 			</div>
 		</div> 
+        </div>
+		
 		<div class="container-fluid">
 			<div class="row f-aviso">
 				<div class="col-2">

@@ -3911,18 +3911,20 @@ p {
   display: none;
 }
 .f-calce{
-  bottom: 60px;
+  position: relative;
   z-index: 5;
+  
 }
 .f-calce-img{
   width: 100vw;
+  display: block;
 }
 .f-conteiner{
   position: absolute;
   z-index: 10;
   left: 20%;
   width: 78%;
-  bottom: 28px;
+  bottom: 10px;
 }
 .col-contact{
   margin-bottom: 5px;
