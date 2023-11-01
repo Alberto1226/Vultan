@@ -1,72 +1,97 @@
-	<?php 
-		$catFotter = getCatFooter();
-	 ?>
-	<!-- Footer -->
-	<footer class="bg3 p-t-0 p-b-0">
-		<div class="footer-container">
-            <div class="contact-section">
-				<div class="contact-row">
-					<img class="contact-image" src="<?= base_url().'/Assets/vultan/encabezados/inferior/icono_telefono.png'?>" alt="">
-					<h2 class="contact-phone">(427) 272 3477</h2>
-				</div>
-				<div class="contact-row">
-					<img src="<?= base_url().'/Assets/vultan/encabezados/inferior/icono_whatsapp.png'?>" alt="">
-					<h2 class="contact-phone">(427) 279 6272</h2>
-				</div>
-				<div class="contact-row">
-					<img src="<?= base_url().'/Assets/vultan/encabezados/inferior/icono_mail.png'?>" alt="">
-					<h2 class="contact-phone">contacto@vultan.com</h2>
-				</div>
-                
-            </div>
-            <div class="separator"></div>
-            <div class="social-icons-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm">
-											
-					<div class="social-column">
-					<div class="contact-row">
-					<img src="<?= base_url().'/Assets/vultan/encabezados/inferior/icono_web.png'?>" alt="">
-					<h2 class="contact-phone">www.vultan.com.mx</h2>
-					</div>
-						<ul class="social-icons">
-							<li><a href="#"><img src="<?= base_url().'/Assets/vultan/encabezados/inferior/icono_fb.png'?>" alt=""></a></li>
-							<li><a href="#"><img src="<?= base_url().'/Assets/vultan/encabezados/inferior/icono_ig.png'?>" alt=""></a></li>
-							<li><a href="#"><img src="<?= base_url().'/Assets/vultan/encabezados/inferior/icono_yt.png'?>" alt=""></a></li>
-							<li><a href="#"><img src="<?= base_url().'/Assets/vultan/encabezados/inferior/icono_tiktok.png'?>" alt=""></a></li>
-						</ul>
-					</div>
-					</div>
-					<div class="col-sm">
-					<div class="qr-column">
-						<img src="<?= base_url().'/Assets/vultan/encabezados/inferior/qr.png'?>" alt="">
-					</div>
-					</div>
-					
-				</div>
-				</div>
-				
-				
-			</div>
+	<?php
+        $catFotter = getCatFooter();
+?>
 
+	<!-- FOOTER 
+		<div class="container-fluid f-calce">
+			<div class="row">
+				<div class="col border border-primary">1</div>
+				<div class="col border border-primary">2</div>
+				<div class="col border border-primary">3</div>
+				<div class="col border border-primary">4</div>
+			</div>
+		</div>
+-->
+	<footer>
+		<div class="f-movil bg3"></div>
+		<div class="f-calce">
+            <img class="f-calce-img" src="<?php echo base_url().'/Assets/vultan/encabezados/inferior/calce.png'; ?>" alt="" >
         </div>
+		<div class="container-fluid f-conteiner">
+			<div class="row">
+				<div class="col-5">
+					<div class="row contact">
+						<div class="col-2 col-contact">
+							<img class="contact-image img-fluid" src="<?php echo base_url().'/Assets/vultan/encabezados/inferior/icono_telefono.png'; ?>" alt="">
+						</div>
+						<div class="col col-contact">
+							<p class="contact-phone">(427) 272 3477</p>
+						</div>
+					</div>
+					<div class="row contact">
+						<div class="col-2 col-contact">
+							<img class="contact-image img-fluid" src="<?php echo base_url().'/Assets/vultan/encabezados/inferior/icono_whatsapp.png'; ?>" alt="">
+						</div>
+						<div class="col col-contact">
+							<p class="contact-phone">(427) 279 6272</p>
+						</div>
+					</div>
+					<div class="row contact">
+						<div class="col-2 col-contact">
+							<img class="contact-image img-fluid" src="<?php echo base_url().'/Assets/vultan/encabezados/inferior/icono_mail.png'; ?>" alt="">
+						</div>
+						<div class="col col-contact">
+							<p class="contact-phone">contacto@vultan.com</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-1">
+					<div class="separator"></div>
+				</div>
+				<div class="col-3">
+					<div class="row">
+						<div class="col cwebs">
+							<img  class="contact-image" src="<?php echo base_url().'/Assets/vultan/encabezados/inferior/icono_web.png'; ?>" alt="">
+						</div>
+						<div class="col">
+							<p class="contact-phone ">www.vultan.com.mx</p>
+						</div>
+					</div>
+					<div class="row col-contact">
+						<div class="col">
+							<a href="#"><img class="social-image" src="<?php echo base_url().'/Assets/vultan/encabezados/inferior/icono_fb.png'; ?>" alt=""></a>
+						</div>
+						<div class="col">
+							<a href="#"><img class="social-image" src="<?php echo base_url().'/Assets/vultan/encabezados/inferior/icono_ig.png'; ?>" alt=""></a>
+						</div>
+						<div class="col">
+							<a href="#"><img class="social-image" src="<?php echo base_url().'/Assets/vultan/encabezados/inferior/icono_yt.png'; ?>" alt=""></a>
+						</div>
+						<div class="col">
+							<a href="#"><img class="social-image" src="<?php echo base_url().'/Assets/vultan/encabezados/inferior/icono_tiktok.png'; ?>" alt=""></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-3 r-qr">
+					<img class="qr" src="<?php echo base_url().'/Assets/vultan/encabezados/inferior/qr.png'; ?>" alt="">
+				</div>
+			</div>
+		</div> 
+		<div class="container-fluid">
+			<div class="row f-aviso">
+				<div class="col-2">
+					<img class="logo-footer img-fluid" src="<?php echo media(); ?>/tienda/images/logo.png" alt="" class="logoFooter">
+				</div>
+				<div class="col">
+					<p class="avdp">AVISO DE PRIVACIDAD</p>
+				</div>
+				<div class="col-3">
+					<p class="isotech">ISOTECH</p>
+				</div>
+			</div>
+		</div>
 	</footer>
-	<div class="aviso">
-	<div class="containeraviso">
-		<div class="row">
-			<div class="col-sm">
-			<img src="<?= media() ?>/tienda/images/logo.png" alt="" class="logoFooter">
-			</div>
-			<div class="col-sm">
-			<H4 class="avdp">AVISO DE PRIVACIDAD</H4>
-			</div>
-			<div class="col-sm">
-			<h1 class="isotech">ISOTECH</H1>
-			</div>
-		</div>
-		</div>
-	</div>
+		
 	<!-- Back to top -->
 	<div class="btn-back-to-top" id="myBtn">
 		<span class="symbol-btn-back-to-top">
@@ -74,40 +99,40 @@
 		</span>
 	</div>
 	<script>
-	    const base_url = "<?= base_url(); ?>";
-		const smony = "<?= SMONEY; ?>";
+		const base_url = "<?php echo base_url(); ?>";
+		const smony = "<?php echo SMONEY; ?>";
 	</script>
 <!--===============================================================================================-->	
-	<script src="<?= media() ?>/tienda/vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="<?php echo media(); ?>/tienda/vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
-	<script src="<?= media() ?>/tienda/vendor/animsition/js/animsition.min.js"></script>
+	<script src="<?php echo media(); ?>/tienda/vendor/animsition/js/animsition.min.js"></script>
 <!--===============================================================================================-->
-	<script src="<?= media() ?>/tienda/vendor/bootstrap/js/popper.js"></script>
-	<script src="<?= media() ?>/tienda/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="<?php echo media(); ?>/tienda/vendor/bootstrap/js/popper.js"></script>
+	<script src="<?php echo media(); ?>/tienda/vendor/bootstrap/js/bootstrap.min.js"></script>
 <!--===============================================================================================-->
-	<script src="<?= media() ?>/tienda/vendor/select2/select2.min.js"></script>
+	<script src="<?php echo media(); ?>/tienda/vendor/select2/select2.min.js"></script>
 <!--===============================================================================================-->
-	<script src="<?= media() ?>/tienda/vendor/daterangepicker/moment.min.js"></script>
-	<script src="<?= media() ?>/tienda/vendor/daterangepicker/daterangepicker.js"></script>
+	<script src="<?php echo media(); ?>/tienda/vendor/daterangepicker/moment.min.js"></script>
+	<script src="<?php echo media(); ?>/tienda/vendor/daterangepicker/daterangepicker.js"></script>
 <!--===============================================================================================-->
-	<script src="<?= media() ?>/tienda/vendor/slick/slick.min.js"></script>
-	<script src="<?= media() ?>/tienda/js/slick-custom.js"></script>
+	<script src="<?php echo media(); ?>/tienda/vendor/slick/slick.min.js"></script>
+	<script src="<?php echo media(); ?>/tienda/js/slick-custom.js"></script>
 <!--===============================================================================================-->
-	<script src="<?= media() ?>/tienda/vendor/parallax100/parallax100.js"></script>
+	<script src="<?php echo media(); ?>/tienda/vendor/parallax100/parallax100.js"></script>
 <!--===============================================================================================-->
-	<script src="<?= media() ?>/tienda/vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
+	<script src="<?php echo media(); ?>/tienda/vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
 <!--===============================================================================================-->
-	<script src="<?= media() ?>/tienda/vendor/isotope/isotope.pkgd.min.js"></script>
+	<script src="<?php echo media(); ?>/tienda/vendor/isotope/isotope.pkgd.min.js"></script>
 <!--===============================================================================================-->
-	<script src="<?= media() ?>/tienda/vendor/sweetalert/sweetalert.min.js"></script>
+	<script src="<?php echo media(); ?>/tienda/vendor/sweetalert/sweetalert.min.js"></script>
 <!--===============================================================================================-->
-	<script src="<?= media() ?>/tienda/vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+	<script src="<?php echo media(); ?>/tienda/vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
 <!--===============================================================================================-->
-	<script src="<?= media();?>/js/fontawesome.js"></script>
-	<script src="<?= media() ?>/tienda/js/main.js"></script>
-	<script src="<?= media();?>/js/functions_admin.js"></script>
-	<script src="<?= media() ?>/js/functions_login.js"></script>
-	<script src="<?= media() ?>/tienda/js/functions.js"></script>
+	<script src="<?php echo media(); ?>/js/fontawesome.js"></script>
+	<script src="<?php echo media(); ?>/tienda/js/main.js"></script>
+	<script src="<?php echo media(); ?>/js/functions_admin.js"></script>
+	<script src="<?php echo media(); ?>/js/functions_login.js"></script>
+	<script src="<?php echo media(); ?>/tienda/js/functions.js"></script>
 
 </body>
 </html>
