@@ -3794,27 +3794,10 @@ input.num-product::-webkit-inner-spin-button {
 
 /*//////////////////////////////////////////////////////////////////
 [ VUKTAN ]*/
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  /* Crea 4 columnas con el mismo ancho */
-  gap: 10px;
-  /* Espacio entre las celdas */
-  padding: 20px;
-  /* Margen interno para separar del borde */
-}
-
 .grid-item {
-
+  text-align: center;
   padding: 20px;
-  /* Espacio interno dentro de cada celda */
-}
-
-.grid-item img {
-  max-width: 100%;
-  /* Asegura que las imágenes no se salgan de sus contenedores */
-  display: block;
-  /* Evita el espacio adicional que puedan tener las imágenes en línea */
+  /*Espacio interno dentro de cada celda*/
 }
 
 h2 {
@@ -3913,7 +3896,6 @@ p {
 .f-calce{
   position: relative;
   z-index: 5;
-  
 }
 .f-calce-img{
   width: 100vw;
@@ -4027,4 +4009,27 @@ p {
     display: flex;
     justify-content: end;
   }
+
+  /* pagina de inicio*/
+  .grid-img {
+    max-width: 25vw;
+    
+  }
+  .whatsapp{
+    margin-bottom: 12vh;
+  }
+}
+
+/* boton flotante whats*/
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:60px;
+  right:25px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:13px;
 }
