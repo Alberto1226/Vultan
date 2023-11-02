@@ -405,7 +405,7 @@ if(document.querySelector("#frmContacto")){
 		let email = document.querySelector("#emailContacto").value;
 		let mensaje = document.querySelector("#mensaje").value;
 
-		if(nombre == ""){
+		if(nombre === ""){
 			swal("", "El nombre es obligatorio" ,"error");
 			return false;
 		}
@@ -415,7 +415,7 @@ if(document.querySelector("#frmContacto")){
 			return false;
 		}
 
-		if(mensaje == ""){
+		if(mensaje === ""){
 			swal("", "Por favor escribe el mensaje." ,"error");
 			return false;
 		}	

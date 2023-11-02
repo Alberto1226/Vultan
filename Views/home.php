@@ -41,10 +41,10 @@ if (!empty($data['page'])) {
 	</div>
 
 	<div class="row" style="padding:5vw;">
-	<div class="col-xs-6 col-md-6" style=""><img src="<?php echo base_url().'/Assets/vultan/inicio/Img1.png'; ?>" alt="" style="width:100%;"></div>
-	<div class="col-xs-6 col-md-6"><p style="text-align: justify;">SOFTWARE DE RASTREO AVANZADO DE FLOTA con GPS; Monitorea y administra fácilmente.</p><br/>
-							<p style="text-align: justify;">Orgullosos de ofrecer a nuestros clientes una plataforma desarrollada por nosotros para poder brindar la mejor de las experiencias y funcionalidades que los usuarios requieren para gestionar el Rastreo Satelital, capaz de soportar miles de equipos y unidades, diseñada para grandes flotillas y altos volúmenes de tráfico de información 100% personalizable e intuitiva permitiendo una mejor administración de tus unidades. Configura y administra los perfiles de tus equipos.</p><br/>
-						</div>
+		<div class="col-xs-6 col-md-6" style=""><img src="<?php echo base_url().'/Assets/vultan/inicio/Img1.png'; ?>" alt="" style="width:100%;"></div>
+		<div class="col-xs-6 col-md-6"><p style="text-align: justify;">SOFTWARE DE RASTREO AVANZADO DE FLOTA con GPS; Monitorea y administra fácilmente.</p><br/>
+			<p style="text-align: justify;">Orgullosos de ofrecer a nuestros clientes una plataforma desarrollada por nosotros para poder brindar la mejor de las experiencias y funcionalidades que los usuarios requieren para gestionar el Rastreo Satelital, capaz de soportar miles de equipos y unidades, diseñada para grandes flotillas y altos volúmenes de tráfico de información 100% personalizable e intuitiva permitiendo una mejor administración de tus unidades. Configura y administra los perfiles de tus equipos.</p><br/>
+		</div>
 	</div>
 
 

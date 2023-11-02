@@ -1,4 +1,4 @@
-<?php 
+<?php
 headerTienda($data);
 ?>
  <br><br><br>
@@ -6,20 +6,20 @@ headerTienda($data);
 	<!-- breadcrumb -->
 	<div class="container">
 		<div class="bread-crumb flex-w p-l-25 p-r-15 p-t-30 p-lr-0-lg">
-			<a href="<?= base_url() ?>" class="stext-109 cl8 hov-cl1 trans-04">
+			<a href="<?php echo base_url(); ?>" class="stext-109 cl8 hov-cl1 trans-04">
 				Inicio
 				<i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
 			</a>
 			<span class="stext-109 cl4">
-				<?= $data['page_title'] ?>
+				<?php echo $data['page_title']; ?>
 			</span>
 		</div>
 	</div>
-<?php 
+<?php
 $subtotal = 0;
 $total = 0;
-if(isset($_SESSION['arrCarrito']) and count($_SESSION['arrCarrito']) > 0){ 
- ?>		
+if (isset($_SESSION['arrCarrito']) and count($_SESSION['arrCarrito']) > 0) {
+    ?>		
 	<!-- Shoping Cart -->
 	<form class="bg0 p-t-75 p-b-85" >
 		<div class="container">
@@ -35,37 +35,37 @@ if(isset($_SESSION['arrCarrito']) and count($_SESSION['arrCarrito']) > 0){
 									<th class="column-4">Cantidad</th>
 									<th class="column-5">Total</th>
 								</tr>
-							<?php 
-								foreach ($_SESSION['arrCarrito'] as $producto) {
-									$totalProducto = $producto['precio'] * $producto['cantidad'];
-									$subtotal += $totalProducto;
-									$idProducto = openssl_encrypt($producto['idproducto'],METHODENCRIPT,KEY);
-								
-							 ?>
-								<tr class="table_row <?= $idProducto ?>">
+							<?php
+                                   foreach ($_SESSION['arrCarrito'] as $producto) {
+                                       $totalProducto = $producto['precio'] * $producto['cantidad'];
+                                       $subtotal += $totalProducto;
+                                       $idProducto = openssl_encrypt($producto['idproducto'], METHODENCRIPT, KEY);
+
+                                       ?>
+								<tr class="table_row <?php echo $idProducto; ?>">
 									<td class="column-1">
-										<div class="how-itemcart1" idpr="<?= $idProducto ?>" op="2" onclick="fntdelItem(this)" >
-											<img src="<?= $producto['imagen'] ?>" alt="<?= $producto['producto'] ?>">
+										<div class="how-itemcart1" idpr="<?php echo $idProducto; ?>" op="2" onclick="fntdelItem(this)" >
+											<img src="<?php echo $producto['imagen']; ?>" alt="<?php echo $producto['producto']; ?>">
 										</div>
 									</td>
-									<td class="column-2"><?= $producto['producto'] ?></td>
-									<td class="column-3"><?= SMONEY.formatMoney($producto['precio']) ?></td>
+									<td class="column-2"><?php echo $producto['producto']; ?></td>
+									<td class="column-3"><?php echo SMONEY.formatMoney($producto['precio']); ?></td>
 									<td class="column-4">
 										<div class="wrap-num-product flex-w m-l-auto m-r-0">
 											<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m"
-											idpr="<?= $idProducto ?>">
+											idpr="<?php echo $idProducto; ?>">
 												<i class="fs-16 zmdi zmdi-minus"></i>
 											</div>
 
-											<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product1" value="<?= $producto['cantidad'] ?>" idpr="<?= $idProducto ?>">
+											<input class="mtext-104 cl3 txt-center num-product" type="number" name="num-product1" value="<?php echo $producto['cantidad']; ?>" idpr="<?php echo $idProducto; ?>">
 
 											<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m"
-											idpr="<?= $idProducto ?>">
+											idpr="<?php echo $idProducto; ?>">
 												<i class="fs-16 zmdi zmdi-plus"></i>
 											</div>
 										</div>
 									</td>
-									<td class="column-5"><?= SMONEY.formatMoney($totalProducto) ?></td>
+									<td class="column-5"><?php echo SMONEY.formatMoney($totalProducto); ?></td>
 								</tr>
 							<?php } ?>
 
@@ -102,7 +102,7 @@ if(isset($_SESSION['arrCarrito']) and count($_SESSION['arrCarrito']) > 0){
 
 							<div class="size-209">
 								<span id="subTotalCompra" class="mtext-110 cl2">
-									<?= SMONEY.formatMoney($subtotal) ?>
+									<?php echo SMONEY.formatMoney($subtotal); ?>
 								</span>
 							</div>
 
@@ -114,7 +114,7 @@ if(isset($_SESSION['arrCarrito']) and count($_SESSION['arrCarrito']) > 0){
 
 							<div class="size-209">
 								<span class="mtext-110 cl2">
-									<?= SMONEY.formatMoney(COSTOENVIO) ?>
+									<?php echo SMONEY.formatMoney(COSTOENVIO); ?>
 								</span>
 							</div>
 						</div>
@@ -127,11 +127,11 @@ if(isset($_SESSION['arrCarrito']) and count($_SESSION['arrCarrito']) > 0){
 
 							<div class="size-209 p-t-1">
 								<span id="totalCompra" class="mtext-110 cl2">
-									<?= SMONEY.formatMoney($subtotal + COSTOENVIO) ?>
+									<?php echo SMONEY.formatMoney($subtotal + COSTOENVIO); ?>
 								</span>
 							</div>
 						</div>
-						<a href="<?= base_url() ?>/carrito/procesarpago" id="btnComprar" class="flex-c-m stext-101 cl0 size-116 bg3 bor14 hov-btn3 p-lr-15 trans-04 pointer">
+						<a href="<?php echo base_url(); ?>/carrito/procesarpago" id="btnComprar" class="flex-c-m stext-101 cl0 size-116 bg3 bor14 hov-btn3 p-lr-15 trans-04 pointer">
 							Procesar pago
 						</a>
 					</div>
@@ -139,14 +139,14 @@ if(isset($_SESSION['arrCarrito']) and count($_SESSION['arrCarrito']) > 0){
 			</div>
 		</div>
 	</form>
-<?php }else{ ?>
+<?php } else { ?>
 <br>
 <div class="container">
-	<p>No hay producto en el carrito <a href="<?= base_url() ?>/tienda"> Ver productos</a></p>
+	<p>No hay producto en el carrito <a href="<?php echo base_url(); ?>/tienda"> Ver productos</a></p>
 </div>
 <br>
-<?php 
-	}
-	footerTienda($data);
- ?>
+<?php
+}
+footerTienda($data);
+?>
 	
