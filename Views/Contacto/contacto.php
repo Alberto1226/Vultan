@@ -9,7 +9,7 @@ $idpagina = $data['page']['idpost'];
  </script>
 <!-- Title page -->
 <section class="bg-img1 txt-center p-lr-15 p-t-40" style="background-image: url(<?php echo $banner; ?>);">
-    <h1 class="ltext-105  txt-center">
+    <h1 class="t-opti txt-center">
         CONTACTO
     </h1>
 </section>
