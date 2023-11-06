@@ -162,31 +162,31 @@ $idpagina = $data['page']['idpost'];
         <div class="col" style="padding:1vw;">
           <div class="card">
             <div class="car-espacio">
-              <p class="card-title">PAQUETE BÁSICO</p>
-              <p class="card-contennido">USO DE LA PLATAFORMA WEB Y APP MÓVIL POR 12 MESES</p>
-              <p class="card-contennido">SIM DE DATOS INCLUIDO</p>
-              <p class="card-contennido">REALIZA TU MISMO TUS PROPIAS RECARGAS</p>
+              <p class="card-title">PAQUETE BÁSICO</p></br>
+              <p class="card-contennido">USO DE LA PLATAFORMA WEB Y APP MÓVIL POR 12 MESES</p></br>
+              <p class="card-contennido">SIM DE DATOS INCLUIDO</p></br>
+              <p class="card-contennido">REALIZA TU MISMO TUS PROPIAS RECARGAS</p></br>
             </div>
           </div>
         </div>
         <div class="col" style="padding:1vw;">
           <div class="card">
             <div class="car-espacio">
-              <p class="card-title">PAQUETE DE DATOS INCLUIDO</p>
-              <p class="card-contennido">USO DE LA PLATAFORMA WEB Y APP MÓVIL POR 12 MESES</p>
-              <p class="card-contennido">SIM DE DATOS INCLUIDO</p>
-              <p class="card-contennido">INCLUYE PLAN DE DATOS POR 12 MESES </p>
+              <p class="card-title">PAQUETE DE DATOS INCLUIDO</p></br>
+              <p class="card-contennido">USO DE LA PLATAFORMA WEB Y APP MÓVIL POR 12 MESES</p></br>
+              <p class="card-contennido">SIM DE DATOS INCLUIDO</p></br>
+              <p class="card-contennido">INCLUYE PLAN DE DATOS POR 12 MESES </p></br>
             </div>
           </div>
         </div>
         <div class="col" style="padding:1vw;">
           <div class="card">
             <div class="car-espacio">
-              <p class="card-title">PAQUETE CON DATOS Y MONITOREO SOS</p>
-              <p class="card-contennido">USO DE LA PLATAFORMA WEB Y APP MÓVIL POR 12 MESES</p>
-              <p class="card-contennido">SIM DE DATOS INCLUIDO</p>
-              <p class="card-contennido">INCLUYE PLAN DE DATOS POR 12 MESES </p>
-              <p class="card-contennido">ASISTENCIA EN PROTOCOLO DE REACCIÓN POR EMERGENCIA</p>
+              <p class="card-title">PAQUETE CON DATOS Y MONITOREO SOS</p></br>
+              <p class="card-contennido">USO DE LA PLATAFORMA WEB Y APP MÓVIL POR 12 MESES</p></br>
+              <p class="card-contennido">SIM DE DATOS INCLUIDO</p></br>
+              <p class="card-contennido">INCLUYE PLAN DE DATOS POR 12 MESES </p></br>
+              <p class="card-contennido">ASISTENCIA EN PROTOCOLO DE REACCIÓN POR EMERGENCIA</p></br>
             </div>
           </div>
         </div>
