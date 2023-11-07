@@ -17,7 +17,7 @@ $arrProductos = $data['productos'];
 				<p class="p-roboto" style="margin-left: 15px; color:#B78E49;">⊛ Autónomos e inteligentes con protocolo anti jamming y de recuperación.</p>
 			</div>
 			<div class="col" style="padding:2vw;">
-				<img class="drop" src="<?php echo base_url().'/Assets/vultan/equipos/icono_puma.png'; ?>" alt="" style="width:100%;">
+				<img class="drop" src="<?php echo base_url().'/Assets/vultan/equipos/icono_puma.png'; ?>" alt="">
 			</div>
 		</div>
 		<div class="row" style="padding:2vw;">

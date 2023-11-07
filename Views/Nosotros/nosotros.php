@@ -23,7 +23,7 @@ $idpagina = $data['page']['idpost'];
 	</div>
 	<div class="row" style="padding:5vw;">
 		<div class="col-xs-6 col-md-6" style="">
-			<img class="style-img-n" src="<?php echo base_url().'/Assets/vultan/nosotros/img2.png'; ?>" alt="" style="height:350px;">
+			<img class="style-img-n" src="<?php echo base_url().'/Assets/vultan/nosotros/img2.png'; ?>" alt="">
 		</div>
 		<div class="col-xs-6 col-md-6">
 			<p class="t-opti-j">NUESTROS VALORES</p><br/>

@@ -55,13 +55,33 @@ $idpagina = $data['page']['idpost'];
   
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm">
-        <img class="servicios-img" style="padding:2vw;" src="<?php echo base_url().'/Assets/vultan/servicios/icono_wa.png'; ?>" alt=""><br/>
-        <img class="servicios-btn" src="<?php echo base_url().'/Assets/vultan/servicios/boton_wa.png'; ?>" alt="">
+      <div class="col">
+        <div class="row" style="padding:1vw;">
+          <div class="col" >
+            <img src="<?php echo base_url().'/Assets/vultan/servicios/icono_wa.png'; ?>" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a href="#" target="_blank" class="">
+              <img class="servicios-btn" src="<?php echo base_url().'/Assets/vultan/servicios/boton_wa.png'; ?>" alt="">
+            </a>
+          </div>
+        </div>
       </div>
-      <div class="col-sm">
-        <img class="servicios-img" style="padding:2vw;" src="<?php echo base_url().'/Assets/vultan/servicios/icono_mail_1.png'; ?>" alt=""><br/>
-        <img class="servicios-btn" src="<?php echo base_url().'/Assets/vultan/servicios/boton_mail.png'; ?>" alt="">
+      <div class="col">
+        <div class="row" style="padding:1vw;">
+          <div class="col">
+              <img class="img-email" src="<?php echo base_url().'/Assets/vultan/servicios/icono_mail_1.png'; ?>" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a href="#" target="_blank" class="">
+              <img class="servicios-btn" src="<?php echo base_url().'/Assets/vultan/servicios/boton_mail.png'; ?>" alt="">
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -105,7 +125,7 @@ $idpagina = $data['page']['idpost'];
       <p class="l-sucursal">¿Deseas instalar equipos y tecnología?</p>
       <p class="l-sucursal">¿Deseas tener tu propia marca?</p>
       <p class="l-sucursal">Contáctanos y te atenderemos a la brevedad</p>
-      <img src="<?php echo base_url().'/Assets/vultan/servicios/img1_1.png'; ?>" alt="" style="width:100%;">
+      <img src="<?php echo base_url().'/Assets/vultan/servicios/img1_1.webp'; ?>" alt="" style="width:100%;">
       </div>
     </div>
   </div>
@@ -141,16 +161,18 @@ $idpagina = $data['page']['idpost'];
     </div>
     <div class="row r-sucursales">
       <div class="col">
-        <p class="p-center" style="font-weight: bold;">Brindamos el acompañamiento y monitoreo detallado de sus políticas de viaje en ruta, con protocolos de reacción. 
+        <p class="p-left" style="padding:1vw;">Brindamos el acompañamiento y monitoreo detallado de sus políticas de viaje en ruta, con protocolos de reacción. 
           Somos el soporte y experiencia que necesitas para la custodia de tus unidades.</p>
       </div>
       <div class="w-100"></div>
-      <div class="col-2 img-sucursales" style="padding:2vw;">
+      <div class="col-1"></div>
+      <div class="col-2 img-sucursales" style="padding:1vw;">
         <img class="img-sucursal" src="<?php echo base_url().'/Assets/vultan/servicios/icono_equipo.png'; ?>" alt="">
       </div>
-      <div class="col" style="padding:2vw;">
+      <div class="col barra2" style="padding:2vw;">
         <p class="p-center">Sí ya tienes un proveedor de dispositivos GPS y necesitas un equipo sólido de monitoristas para realizar un buen protocolo de monitoreo activo, escribenos y solucionaremos tus necesidades.</p> 
       </div>
+      <div class="col-1"></div>
     </div>
   </div>
 

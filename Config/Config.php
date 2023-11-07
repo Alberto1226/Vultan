@@ -1,7 +1,7 @@
 <?php
 
 // const BASE_URL = "https://isotech.mx/tienda/tienda_virtual";
-const BASE_URL = 'http://localhost/proyectos/Vultan';
+const BASE_URL = 'http://localhost/Vultan';
 
 // Zona horaria
 date_default_timezone_set('America/Mexico_City');

@@ -303,7 +303,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   background-color: black;
   width: 100%;
   height: 84px;
-  top: 40px;
+  top: 0px;
   left: 0px;
 
   -webkit-transition: height 0.3s, background-color 0.3s;
@@ -4068,8 +4068,8 @@ p {
 /* boton flotante whats*/
 .whatsapp {
   position:fixed;
-  width:60px;
-  height:60px;
+  width:50px;
+  height:50px;
   bottom:60px;
   right:25px;
   z-index:100;
@@ -4116,21 +4116,34 @@ p {
 .style-img-n{
   width:100%;
   border-radius: 1vw;
+  height: 100%;
 }
 
 /*sucursales*/
-.btn-image{
-  border: solids;
-}
-.servicios-img{
-  max-width: 80%;
+.img-email{
+  height: 98px;
 }
 .servicios-btn{
-  max-width: 50%;
+  max-width: 30%;
 }
 .p-sucursal{
   font-family: RobotoCondensed-Regular;
   font-size: 4vh;
+}
+.p-left{
+  font-family: RobotoCondensed-Regular;
+  font-size: 2vh;
+  text-align: left;
+  margin-left: 20px;
+  font-weight: bold;
+  /*align-items: start;
+  justify-content: start;*/
+}
+
+.barra2{
+  border-radius: 2vw;
+  color: white;
+  background-color: #B78E49;
 }
 
 .form-control {
@@ -4270,7 +4283,7 @@ input::file-selector-button {
 
 /*tienda-equipos*/
 .drop {
-  filter: drop-shadow(0 2px 5px rgba(92, 92, 2, 0.502)); 
+ filter: drop-shadow(0 3px 6px rgba(92, 92, 2, 0.502));
 }
 
 /*app*/

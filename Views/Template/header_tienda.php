@@ -101,7 +101,7 @@ if (!empty($data['producto'])) {
 		<!-- Header desktop -->
 		<div class="container-menu-desktop">
 			<!-- Topbar -->
-			<div class="top-bar">
+		<!--<div class="top-bar">
 				<div class="content-topbar flex-sb-m h-full container">
 					<div class="left-top-bar">
 						<?php if (isset($_SESSION['login'])) { ?>
@@ -132,7 +132,7 @@ if (!empty($data['producto'])) {
 						<?php } ?>
 					</div>
 				</div>
-			</div>
+			</div>-->
 
 			<div class="wrap-menu-desktop">
 				<nav class="limiter-menu-desktop container">
@@ -175,11 +175,11 @@ if (!empty($data['producto'])) {
 					<!-- Icon header -->
 					<div class="wrap-icon-header flex-w flex-r-m">
 						<div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 js-show-modal-search">
-							<i class="zmdi zmdi-search"></i>
+							<i class="zmdi zmdi-search" style="color: #FFF;"></i>
 						</div>
 						<?php if ($data['page_name'] != 'carrito' and $data['page_name'] != 'procesarpago') { ?>
 						<div class="cantCarrito icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart" data-notify="<?php echo $cantCarrito; ?> ">
-							<i class="zmdi zmdi-shopping-cart"></i>
+							<i class="zmdi zmdi-shopping-cart" style="color: #FFF;"></i>
 						</div>
 						<?php } ?>
 					</div>
@@ -217,7 +217,7 @@ if (!empty($data['producto'])) {
 
 		<!-- Menu Mobile -->
 		<div class="menu-mobile">
-			<ul class="topbar-mobile">
+		<!--<<ul class="topbar-mobile">
 				<li>
 					<div class="left-top-bar">
 						<?php if (isset($_SESSION['login'])) { ?>
@@ -250,7 +250,7 @@ if (!empty($data['producto'])) {
 						<?php } ?>
 					</div>
 				</li>
-			</ul>
+			</ul>-->
 
 			<ul class="main-menu-m">
 				<li>
