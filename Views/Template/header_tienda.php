@@ -91,7 +91,7 @@ if (!empty($data['producto'])) {
 	    </div>
 	  </div>
 	</div>
-	<div id="divLoading" >
+	<div id="divLoading">
       <div>
         <img src="<?php echo media(); ?>/images/loading.svg" alt="Loading">
       </div>
@@ -137,10 +137,10 @@ if (!empty($data['producto'])) {
 			<div class="wrap-menu-desktop">
 				<nav class="limiter-menu-desktop container">
 					
-					<!-- Logo desktop -->		
-					<a href="<?php echo base_url(); ?>" class="logo">
+					<!-- Logo desktop 		
+					<a href="<?php echo base_url(); ?>" class="logo" class="m-logo">
 						<img src="<?php echo media(); ?>/tienda/images/logo.png" alt="RASTREO SATELITAL">
-					</a>
+					</a>-->
 
 					<!-- Menu desktop -->
 					<div class="menu-desktop">
@@ -189,10 +189,10 @@ if (!empty($data['producto'])) {
 
 		<!-- Header Mobile -->
 		<div class="wrap-header-mobile">
-			<!-- Logo moblie -->		
+			<!-- Logo moblie		
 			<div class="logo-mobile">
 				<a href="<?php echo base_url(); ?>"><img src="<?php echo media(); ?>/tienda/images/logo.png" alt="RASTREO SATELITAL"></a>
-			</div>
+			</div> -->
 
 			<!-- Icon header -->
 			<div class="wrap-icon-header flex-w flex-r-m m-r-15">

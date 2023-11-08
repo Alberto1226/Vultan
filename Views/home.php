@@ -11,7 +11,7 @@ if (!empty($data['page'])) {
 
 ?>
 	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-		<div class="carousel-inner">
+		<div class="carousel-inner slideW">
 			<div class="carousel-item active">
 			<img class="d-block w-100" src="<?php echo base_url().'/Assets/vultan/inicio/slider1.png'; ?>" alt="First slide">
 			</div>
@@ -32,7 +32,7 @@ if (!empty($data['page'])) {
 		</a>
 	</div>
 	<!--Vultan  Assets/vultan/inicio/img1.png-->
-	<div class="container-fluid">
+	<div class="container-fluid contW">
 		<div class="row" style="padding:5vw;">
 			<div class="col-xs-6 col-md-6" style="background-color:black;">
 				<img src="<?php echo base_url().'/Assets/vultan/inicio/icono_Play.png'; ?>" alt="">
@@ -81,7 +81,7 @@ if (!empty($data['page'])) {
 	</div>
 
 	<!--Fin Vultan-->
-	<div class="container-fluid" style="padding:5vw;">
+	<div class="container-fluid contW" style="padding:5vw;">
 		<div class="row">
 			<div class="col">
 				<div class="grid-item">

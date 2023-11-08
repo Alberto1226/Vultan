@@ -33,8 +33,10 @@ Title           : 18px/1.6 '', Arial, sans-serif;
 Paragrap        : 18px/1.6 '', Arial, sans-serif;
 Input, textarea : 14px/1.6 '', Arial, sans-serif;
 -------------------------------------------------------------------*/
-
-
+body{
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
@@ -228,7 +230,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 .container-menu-desktop {
   height: auto;
-  width: 100%;
+  width: 99vw;
   position: relative;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -301,7 +303,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   position: fixed;
   z-index: 1100;
   background-color: black;
-  width: 100%;
+  width: 100vw;
   height: 84px;
   top: 0px;
   left: 0px;
@@ -3920,7 +3922,7 @@ p {
   z-index: 5;
 }
 .f-calce-img{
-  width: 100vw;
+  width: 99vw;
   display: block;
 }
 .f-conteiner{
@@ -3973,6 +3975,7 @@ p {
 .f-aviso{
   background-color: black;
   color: white;
+  width: 99vw;
 }
 .logo-footer{
   width: 75px;
@@ -4299,4 +4302,12 @@ input::file-selector-button {
   background-color: #ffc107;
 }
 
+.slideW{
+  width: 95%;
+  height: 90%;
+  margin: auto;
+}
 
+.contW{
+  width: 99vw;
+}
